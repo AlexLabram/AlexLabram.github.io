@@ -77,7 +77,7 @@
 <p>R Blogdown is part of the same series of <a href="https://en.wikipedia.org/wiki/Literate_programming">literate programming</a> packages as <a href="https://rmarkdown.rstudio.com/">R Markdown</a> and <a href="https://bookdown.org/">R Bookdown</a>.  They&rsquo;re all produced by the same person, <a href="https://yihui.org/">Yi Hui</a>, who is up there with Hadley Wickham in the R pantheon.  Literate programming, which I only stumbled across recently via the JHU Data Science <a href="https://www.coursera.org/specializations/jhu-data-science">specialisation</a> on Coursera, is an alternative programming paradigm for producing truly self-documenting analysis.  It works incredibly well in a data science context, and R Markdown in particular is currently my go-to tool for any shallow analysis.</p>
 <p>Less fortunately, R Blogdown + GitHub Pages is not <em>entirely</em> a supported configuration.  The <a href="https://bookdown.org/yihui/blogdown/github-pages.html">Blogdown manual</a> quite heavily steers you towards an apparently-more-sophisticated alternative called <a href="https://www.netlify.com/">Netlify</a>.  Which I&rsquo;ve never heard of before, and don&rsquo;t have the first clue how to take full advantage of, so have promptly <a href="https://en.wikipedia.org/wiki/File_13">filed</a> under Not This Time Buddy.</p>
 <h1 id="r-ing-tfm">R-ing TFM</h1>
-<p>Being a typical techie, my first attempt was without any reference to the written documentation.  I ran <code>install.packages(&quot;blogdown&quot;)</code> and, after one scary moment when the progress bar went up to ~4000%, it installed perfectly.  I then created a new repository on GitHub called &ldquo;AlexLabram.github.io&rdquo;, cloned it locally via R Studio&rsquo;s New Project / Version Control dialog option ^[1], and ran <code>blogdown::new_site()</code> to populate it.  Committed changes, pushed to GitHub, checked the <a href="https://alexlabram.github.io">site link</a> and&hellip; <a href="https://www.youtube.com/watch?v=8Nho44lGVV8">that&rsquo;s not a website</a>, that&rsquo;s a README file.</p>
+<p>Being a typical techie, my first attempt was without any reference to the written documentation.  I ran <code>install.packages(&quot;blogdown&quot;)</code> and, after one scary moment when the progress bar went up to ~4000%, it installed perfectly.  I then created a new repository on GitHub called &ldquo;AlexLabram.github.io&rdquo;, cloned it locally via R Studio&rsquo;s New Project / Version Control dialog option <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, and ran <code>blogdown::new_site()</code> to populate it.  Committed changes, pushed to GitHub, checked the <a href="https://alexlabram.github.io">site link</a> and&hellip; <a href="https://www.youtube.com/watch?v=8Nho44lGVV8">that&rsquo;s not a website</a>, that&rsquo;s a README file.</p>
 <p>The key problem, as <a href="https://bookdown.org/yihui/blogdown/github-pages.html">outlined</a> in the Blogdown manual, is that GitHub Pages expects the site index to be in the root folder, whereas Blogdown expects it to be in the /public subdirectory.  According to the <em>GitHub Pages</em> <a href="https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">manual</a>, it should be possible to change this&hellip; but, where there&rsquo;s supposed to be a dropdown in the GitHub settings page, I just see the message &ldquo;User pages must be built from the master branch.&rdquo;  Helpful.</p>
 <p>Plan B, after reading the Blogdown help page, is to split my work into two repositories.  The first, imaginatively named &ldquo;blog_source&rdquo;, contains the Blogdown R project, as produced via New Project / New Directory / Website Using Blogdown.  The second, named &ldquo;AlexLabram.github.io&rdquo;, contains the actual static site.  A Blogdown configuration option, <code>publishDir = &quot;../AlexLabram.github.io&quot;</code>, is used to point the one at the other.</p>
 <p>There are a couple of subtle annoyances here.  Firstly - and this may well be unique to me - I had great fun convincing RStudio that I wanted to create a Blogdown site, apply version control <em>and</em> link it to an existing (empty) GitHub repository.  This is the first and only time in my life I&rsquo;ve genuinely needed to drop down into the Git shell, in order to run <code>git remote add origin https://github.com/AlexLabram/blog_source</code>.</p>
@@ -113,6 +113,7 @@
 <li>The site builder tool doesn&rsquo;t delete previously-generated content, even if you&rsquo;ve deleted the corresponding .md or .Rmd file.  You have to delete the contents of the static content folder before rebuilding the site.</li>
 <li>Said purge should not extend to the .gitkeep, .nojekyll and _config.yml files, nor to the .git subfolder.  D&rsquo;oh.</li>
 <li>Attempting to commit the static site files in Git gets me the following error: <code>warning: LF will be replaced by CRLF in 2020/05/11/getting-started-blogdown/index.html. The file will have its original line endings in your working directory</code>.  I&rsquo;m chalking this up to Windows being Windows, and trying not to breathe too heavily near it in case it falls over.</li>
+<li></li>
 </ul>
 <p>Having ploughed through all those issues, I <em>finally</em> seem to have a working site.  Now I just need to customise the site&rsquo;s appearance and metadata.  Joy.</p>
 <h1 id="lessons-learned">Lessons learned</h1>
@@ -121,6 +122,14 @@
 <li>Learning how to use the Git shell is probably worth the effort, even if your IDE includes a pretty front-end that provides <em>most</em> of the same functionality.</li>
 <li>Just because a thousand other people are using a content management system, doesn&rsquo;t mean it won&rsquo;t have really dumb issues.</li>
 </ul>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>I&rsquo;ve so far managed to avoid getting to grips with Git&rsquo;s command line.  Not sure how far I&rsquo;ll be able to stick to that policy, but I&rsquo;m holding out as long as I can. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 
     </div>
   </article>
