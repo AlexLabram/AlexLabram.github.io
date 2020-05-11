@@ -6,10 +6,30 @@
     <description>Recent content in R Markdown on A Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Getting Started with R Blogdown on GitHub Pages</title>
+      <link>/2020/05/11/getting-started-blogdown/</link>
+      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/11/getting-started-blogdown/</guid>
+      <description>Your mission, should you choose to accept it&amp;hellip; I recently stumbled back across an essay that I remember caught my attention a couple years back. Its premise: if you want to be a data scientist, start a blog. It&amp;rsquo;ll give you practice, help you build a portfolio, and attract constructive critical feedback.
+As an aspiring data scientist, what else could I do but take this excellent advice? Although I think I may be on the wrong Internet for that last point :-/</description>
+    </item>
+    
+    <item>
+      <title>Getting started with R Blogdown on GitHub Pages</title>
+      <link>/2018/05/11/getting-started-blogdown_old/</link>
+      <pubDate>Fri, 11 May 2018 20:26:00 +0000</pubDate>
+      
+      <guid>/2018/05/11/getting-started-blogdown_old/</guid>
+      <description>Your mission, should you choose to accept it…I recently stumbled back across an essay that I remember caught my attention a couple years back. Its premise: if you want to be a data scientist, start a blog. It’ll give you practice, help you build a portfolio, and attract constructive critical feedback.
+As an aspiring data scientist, what else could I do but take this excellent advice? Although I think I may be on the wrong Internet for that last point :-/</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>
@@ -20,16 +40,6 @@
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Getting started with R Blogdown on GitHub Pages</title>
-      <link>/1/01/01/getting-started-with-r-blogdown-on-github-pages/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/1/01/01/getting-started-with-r-blogdown-on-github-pages/</guid>
-      <description>Your mission, should you choose to accept it…I recently stumbled back across an essay that I remember caught my attention a couple years back. Its premise: if you want to be a data scientist, start a blog. It’ll give you practice, help you build a portfolio, and attract constructive critical feedback.
-As an aspiring data scientist, what else could I do but take this excellent advice? Although I think I may be on the wrong Internet for that last point :-/</description>
     </item>
     
   </channel>
