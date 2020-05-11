@@ -57,7 +57,7 @@
 
   <article class="article">
     
-    <span class="article-duration">7 min read</span>
+    <span class="article-duration">8 min read</span>
     
 
     <h1 class="article-title">Getting Started with R Blogdown on GitHub Pages</h1>
@@ -97,7 +97,7 @@
 <li>Could I <a href="https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site">wire it up</a> to my existing personal domain (which has been without website for about a decade)?</li>
 <li>Could I produce interesting and engaging content?</li>
 </ol>
-<p>I&rsquo;m pleased to confirm that #1 seems to be working OK (breath: held).  I&rsquo;m going to leave #3 for a later date - had enough technical turmoil for one evening.  And #4 is <em>obviously</em> a pipe dream :-P</p>
+<p>I&rsquo;m pleased to confirm that #1 seems to be working OK (breath: held).  I&rsquo;m going to leave #3 for a later date - had enough technical turmoil for one evening.  And #4 is <em>clearly</em> a pipe dream :-P</p>
 <p>Item #2, creating a new page, is a bit more convoluted.  This is largely because Bookdown is built on top of another static site generator called Hugo - it&rsquo;s basically a wrapper that adds R Markdown support.  This means that you have to know at least a little about Hugo.</p>
 <p>In particular:</p>
 <ul>
@@ -108,8 +108,12 @@
 <p>Speaking personally, I stumbled across the following minor issues in creating a blog post (this one!) from an <a href="https://github.com/AlexLabram/blog_source/blob/master/content/post/2020-05-11-getting-started-with-blogdown.Rmd">R Notebook</a>.</p>
 <ul>
 <li>R Blogdown&rsquo;s site preview tool doesn&rsquo;t like the whole &ldquo;split across two repositories&rdquo; concept.  At all.  After some coaxing (i.e. manually locating the index.html file and opening it in Chrome), it would display the site without any formatting or images.  Meh, good enough for checking.</li>
-<li>The &ldquo;date&rdquo; parameter in a Notebook&rsquo;s YAML header is <a href="https://www.youtube.com/watch?v=QRVExJZKIT8">load-bearing</a>.  I initially tried just specifying it as &ldquo;2020-05-11&rdquo;; it filed the blog post under date 0001-01-01.  A subsequent attempt using the full UTC date string (&ldquo;2020-05-11T20:26:00+00:00&rdquo;) caused the post to be entirely ignored for rendering purposes.</li>
+<li>The &ldquo;date&rdquo; parameter in a Notebook&rsquo;s YAML header is <a href="https://www.youtube.com/watch?v=QRVExJZKIT8">load-bearing</a>.  I initially tried just specifying it as &ldquo;2020-05-11&rdquo;; it filed the blog post under date 0001-01-01.  A subsequent attempt using the full UTC date string (&ldquo;2020-05-11T20:26:00+00:00&rdquo;) caused the post to be entirely ignored for rendering purposes, which I ultimately traced down to the year value but still can&rsquo;t explain.  Eventually I gave up and used RStudio&rsquo;s &ldquo;New Post&rdquo; tool (in the Addins menu on the toolbar).</li>
+<li>The New Post tool doesn&rsquo;t add a &ldquo;.md&rdquo; suffix to a Markdown file unless you tell it to.  It&rsquo;s still better than creating pages manually, though.</li>
+<li>The site builder tool doesn&rsquo;t delete previously-generated content, even if you&rsquo;ve deleted the corresponding .md/.Rmd file.  You have to empty out the</li>
+<li>Said purge should not extend to the /gitkeep, .nojekyll and _config.yml files, nor to the .git subfolder.  D&rsquo;oh.</li>
 </ul>
+<p>Having ploughed through all those issues, I <em>finally</em> seem to have a working site.  Now I just need to customise the site&rsquo;s appearance and metadata.  Joy.</p>
 <h1 id="lessons-learned">Lessons learned</h1>
 <ul>
 <li>Setting up new infrastructure is never ever easy, no matter how straightforward it&rsquo;s alleged to be.  Budget your time, <a href="https://tvtropes.org/pmwiki/pmwiki.php/Main/SanityMeter">SAN points</a> and alcohol accordingly.</li>
