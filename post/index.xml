@@ -41,5 +41,15 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
+    <item>
+      <title>Getting started with R Blogdown on GitHub Pages</title>
+      <link>/1/01/01/getting-started-with-r-blogdown-on-github-pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/01/01/getting-started-with-r-blogdown-on-github-pages/</guid>
+      <description>Your mission, should you choose to accept it…I recently stumbled back across an essay that I remember caught my attention a couple years back. Its premise: if you want to be a data scientist, start a blog. It’ll give you practice, help you build a portfolio, and attract constructive critical feedback.
+As an aspiring data scientist, what else could I do but take this excellent advice? Although I think I may be on the wrong Internet for that last point :-/</description>
+    </item>
+    
   </channel>
 </rss>
