@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Intricate Mechanisms</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I Write Stuff</title>
+      <link>/2020/05/14/i-write-stuff/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/14/i-write-stuff/</guid>
+      <description>This post is a log of publicly-available content I&amp;rsquo;ve produced for third parties. I&amp;rsquo;ll update it in future as new stuff lands.
+IFoA DS-MIG I&amp;rsquo;ve written on data science for the Institute and Faculty of Actuaries, the UK&amp;rsquo;s actuarial professional body, as part of my involvement in their Data Science Member Interest Group (I&amp;rsquo;m a workstream lead). These are aimed at a professional audience, so if you&amp;rsquo;re used to Medium.com-style articles then you may find them a bit turgid, but they hopefully provide a good overview of a few key topics.</description>
+    </item>
     
     <item>
       <title>Data Science is Different</title>
