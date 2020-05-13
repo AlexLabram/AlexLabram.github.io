@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Intricate Mechanisms</title>
-    <link>/post/</link>
-    <description>Recent content in Posts on Intricate Mechanisms</description>
+    <title>Data Science on Intricate Mechanisms</title>
+    <link>/categories/data-science/</link>
+    <description>Recent content in Data Science on Intricate Mechanisms</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>Data science is fast emerging as one of the core concepts with which companies and professionals must grapple. However, as with most such concepts, it lives a double life: half useful technical term, half content-free buzzword.
 In its incarnation as a technical term, what it really represents is:
  The convergence of data analysis techniques from a wide range of scientific fields. Until recently, every scientific field had its own techniques and terminology.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with R Blogdown on GitHub Pages</title>
-      <link>/2020/05/11/getting-started-blogdown/</link>
-      <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/05/11/getting-started-blogdown/</guid>
-      <description>Your mission, should you choose to accept it&amp;hellip; I recently stumbled back across an essay that I remember caught my attention a couple years back. Its premise: if you want to be a data scientist, start a blog. It&amp;rsquo;ll give you practice, help you build a portfolio, and attract constructive critical feedback.
-As an aspiring data scientist, what else could I do but take this excellent advice? Although I think I may be on the wrong Internet for that last point :-/</description>
     </item>
     
   </channel>

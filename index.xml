@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Data Science is Different</title>
+      <link>/2020/05/13/data-science-different/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/13/data-science-different/</guid>
+      <description>Data science is fast emerging as one of the core concepts with which companies and professionals must grapple. However, as with most such concepts, it lives a double life: half useful technical term, half content-free buzzword.
+In its incarnation as a technical term, what it really represents is:
+ The convergence of data analysis techniques from a wide range of scientific fields. Until recently, every scientific field had its own techniques and terminology.</description>
+    </item>
+    
+    <item>
       <title>Getting Started with R Blogdown on GitHub Pages</title>
       <link>/2020/05/11/getting-started-blogdown/</link>
       <pubDate>Mon, 11 May 2020 00:00:00 +0000</pubDate>
