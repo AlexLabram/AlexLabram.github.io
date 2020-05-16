@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rant on Intricate Mechanisms</title>
+    <link>/tags/rant/</link>
+    <description>Recent content in rant on Intricate Mechanisms</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/rant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tables in R Markdown</title>
+      <link>/2020/05/16/tables-in-r-markdown/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/05/16/tables-in-r-markdown/</guid>
+      <description>Something that took me a while to grasp when I was younger is that two people can have legitimately different experiences of a person or place. “He’s always positive and smiling,” says the big boss “He’s really grumpy and tends to lash out,” says the subordinate. “He’s cheerful and a bit flirty,” says the co-worker. The executive assistant agrees but adds that she finds the flirting a bit creepy.</description>
+    </item>
+    
+  </channel>
+</rss>
