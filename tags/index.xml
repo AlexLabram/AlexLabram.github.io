@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Intricate Mechanisms</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>philosophising</title>
+      <link>/tags/philosophising/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/philosophising/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rant</title>
+      <link>/tags/rant/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rant/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R Markdown</title>
@@ -17,24 +35,6 @@
       <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rant</title>
-      <link>/tags/rant/</link>
-      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rant/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>philosophising</title>
-      <link>/tags/philosophising/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/philosophising/</guid>
       <description></description>
     </item>
     

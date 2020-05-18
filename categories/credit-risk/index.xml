@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>philosophising on Intricate Mechanisms</title>
-    <link>/tags/philosophising/</link>
-    <description>Recent content in philosophising on Intricate Mechanisms</description>
+    <title>Credit Risk on Intricate Mechanisms</title>
+    <link>/categories/credit-risk/</link>
+    <description>Recent content in Credit Risk on Intricate Mechanisms</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/philosophising/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/credit-risk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>/2020/05/17/p-vs-q/</guid>
       <description>I have a lot of respect for the UK actuarial exams, and in some ways that respect has actually increased since I gave up on them a few years back.
 Broadly speaking: the earlier actuarial exams get you up to speed with a bunch of essential technical topics, whilst the later exams teach you how to apply those topics without falling into any of a few hundred known pitfalls. Using one highly regarded framework for skills analysis, the earlier exams can be viewed as buffing your INT score, with the later exams focusing on WIS.</description>
-    </item>
-    
-    <item>
-      <title>Data Science is Different</title>
-      <link>/2020/05/13/data-science-different/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/05/13/data-science-different/</guid>
-      <description>Data science is fast emerging as one of the core concepts with which companies and professionals must grapple. However, as with most such concepts, it lives a double life: half useful technical term, half content-free buzzword.
-In its incarnation as a technical term, what it really represents is:
- The convergence of data analysis techniques from a wide range of scientific fields. Until recently, every scientific field had its own techniques and terminology.</description>
     </item>
     
   </channel>
